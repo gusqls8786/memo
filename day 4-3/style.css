@@ -1,0 +1,132 @@
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li
+        {
+            list-style: none;
+        }
+
+        .big_box
+        {
+            width: 352px;
+            height: 104px;
+            background: lavender;
+            margin: 0 auto;
+            margin-top: 30px;
+            overflow: hidden;
+        }
+
+        .big_box .box_1
+        {
+            width: 104px;
+            height: 104px;
+            float: left;
+            margin-right: 20px;
+            text-align: center;
+            line-height: 104px;
+            color: white;
+            background-image: url(./img/img-1.png);
+        }
+
+        .big_box .box_1:hover
+        {
+            background-image: url(./img/img-2.jpg);
+            transition: 0.5s;
+        }
+
+        .big_box .box_2
+        {
+            width: 104px;
+            height: 104px;
+            float: left;
+            margin-right: 20px;
+            text-align: center;
+            line-height: 104px;
+            color: white;
+            background-image: url(./img/img-2.jpg);
+        }
+
+        .big_box .box_2::before
+        {
+            content: "before";
+        }
+
+        .big_box .box_2::after
+        {
+            content: "after";
+            color: black;
+        }
+
+        .big_box .box_3
+        {
+            width: 104px;
+            height: 104px;
+            float: left;
+            margin-right: 20px;
+            text-align: center;
+            line-height: 104px;
+            color: white;
+            background-image: url(./img/img-3.png);
+            margin-right: 0;
+        }
+
+        .big_box .medic
+        {
+            clear: both;
+        }
+
+        .치매약::after
+        {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .부모
+        {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 20px;
+            background: blueviolet;
+        }
+
+
+        .부모 .child
+        {
+            background: green;
+            width: 33.3333%;
+            float: left;
+        }
+
+        .부모 .일동
+        {
+        }
+
+        .부모 .이동
+        {
+        }
+
+        .부모 .삼동
+        {
+        }
+
+
+        .삼촌
+        {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 20px;
+            background: khaki;
+        }
+
+        .삼촌 .child
+        {
+            background: teal;
+            width: 33.3333%;
+            float: left;
+        }
