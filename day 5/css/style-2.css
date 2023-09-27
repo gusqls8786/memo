@@ -1,0 +1,50 @@
+.box_1
+{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    width: 1000px;
+    background: lightgoldenrodyellow;
+    background-size: cover;
+    background-image: url(https://manual.notch.one/0.9.23/en/docs/nodes/generators/grid/img/node-generators-grid-img.jpg);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.box_1 .child
+{
+    width: 200px;
+    height: 200px;
+}
+
+.box_1 .mini_1
+{
+    background: lightblue;
+    left: 400px;
+    position: relative;
+    /* position: relative; 는 원래자리를 기억함 */
+}
+
+.box_1 .mini_2
+{
+    background: lightcoral;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    
+}
+
+.box_1 .mini_3
+{
+    background: lightgreen;
+    position: static;
+    /* position: static; = 기본값(적던말던 적용되어있음) */
+}
+
+.box_1 .mini_4
+{
+    background: violet;
+    position: fixed;
+    right: 0;
+    top: 200px;
+}

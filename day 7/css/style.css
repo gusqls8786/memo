@@ -1,0 +1,145 @@
+.medicine::after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.big_box
+{
+    width: 1000px;
+    background: lemonchiffon;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.big_box .box_1
+{
+    background: lightblue;
+    padding: 20px;
+}
+
+.big_box .box_1 .mini
+{
+    float: left;
+    background: lightcoral;
+    width: 24.25%;
+    height: 200px;
+    margin-right: 1%;
+}
+
+.big_box .box_1 .mini_1
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.big_box .box_1 .mini_1 .upper
+{
+    width: 100%;
+    height: 100%;
+    /* 100%로 정의시 부모의 넓이와 높이의 100%로 실행 */
+    background-image: url(https://img.megabox.co.kr/SharedImg/2023/07/13/orufe1IXjgOavJNvCJAv7ofotXRqBKJ8_1100.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.big_box .box_1 .mini_1 .under
+{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(https://img.megabox.co.kr/SharedImg/2023/07/13/cNct1duq1x0PYF8ZMsZl3zdvLUJ0fvTP_1100.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.under:hover
+{
+    opacity: 0;
+}
+
+.big_box .box_1 .mini_2
+{
+    position: relative;
+    background-image: url(https://img.megabox.co.kr/SharedImg/2022/12/19/OAZoLBf8ZCFCu7J3imzYqLjMzuSelXsJ_380.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.big_box .box_1 .mini_2 .upper
+{
+    background-image: url(https://img.megabox.co.kr/SharedImg/2022/12/19/iFw18pQDvdY0Zgtm33P43LBQ9M93nXGP_1100.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    /*
+    position: absolute; 자식의 공간만큼 적용*/
+}
+
+.big_box .box_1 .mini_2:hover .upper
+{
+    left: 0;
+}
+
+.big_box .box_1 .mini_3
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.big_box .box_1 .mini_3 .YT
+{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.4);
+    /*
+    transform: translate(X값, Y값); = %의 기준이 자기자신 */
+}
+
+.big_box .box_1 .mini_4
+{
+    margin-right: 0;
+}
+
+.big_box .box_2
+{
+    background: lightgreen;
+}
+
+.big_box .box_2 .mini
+{
+    background: lightsalmon;
+}
+
+.big_box .box_2 .mini_1
+{
+
+}
+
+.big_box .box_2 .mini_2
+{
+    
+}
+
+.big_box .box_2 .mini_3
+{
+    
+}
+
+.big_box .box_2 .mini_4
+{
+    
+}

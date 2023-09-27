@@ -1,0 +1,129 @@
+.village
+{
+    padding: 20px;
+    background: #D2E0FB;
+}
+
+.village .village_1
+{
+    padding: 20px;
+    background: #FF6969;
+} 
+
+.village .village_1 .child
+{
+    float: left;
+    background: #D7E5CA;
+}
+
+.village .village_1 .child .small_1
+{
+}
+
+.village .village_1 .child .small_2
+{
+}
+
+.village .village_1 .child .small_3
+{
+}
+
+.village .village_1 .child .small_4
+{
+    
+}
+
+.village .village_1 .last
+{
+    clear: both;
+}
+
+.village .village_2
+{
+    margin-top: 30px;
+    padding: 20px;
+    background: #141E46;
+}
+
+/*
+::before, ::after는 in-line 요소이다(글자와 같은 성질)
+in-line요소는 공간을 인식하지 못함
+clear:both는 부모가 공간을 인식하지 못할때 인식할수 있도록함
+단. clear:both는 block요소 일때만 실행됨
+*/
+
+.village .village_2::before
+{
+   
+}
+
+.village .village_2::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+.village .village_2:hover
+{
+    background: red;
+}
+
+.village .village_2 .child
+{
+    float: left;
+    background: #713ABE;
+}
+
+.village .village_2 .child .small_1
+{
+
+}
+
+.village .village_2 .child .small_2
+{
+
+}
+
+.village .village_2 .child .small_3
+{
+
+}
+
+.village .village_2 .child .small_4
+{
+
+}
+
+.village_3
+{
+    background: lightgreen;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.village_3 .child
+{
+    background: orange;
+}
+
+.village_3 .child .small_1
+{
+
+}
+
+.village_3 .child .small_2
+{
+    
+}
+
+.village_3 .child .small_3
+{
+    
+}
+
+.village_3 .child .small_4
+{
+    
+}
