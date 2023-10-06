@@ -114,14 +114,28 @@
     margin-right: 0;
 }
 
+.big_box .box_1 .mini_4 iframe
+{
+    width: 100%;
+    height: 100%;
+}
+
 .big_box .box_2
 {
     background: lightgreen;
+    padding: 20px;
 }
 
 .big_box .box_2 .mini
 {
     background: lightsalmon;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
 }
 
 .big_box .box_2 .mini_1
@@ -136,10 +150,13 @@
 
 .big_box .box_2 .mini_3
 {
-    
+    padding: 2%;
+    /* padding = 내장지방, 시계방향으로 적용 */
+    /* margin, padding의 %기준은 부모의 넓이 */
 }
 
 .big_box .box_2 .mini_4
 {
-    
+    margin-right: 0;
 }
+
